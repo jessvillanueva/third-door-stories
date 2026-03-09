@@ -38,7 +38,7 @@ const mapEntries: MapEntry[] = [
   { name: "Magnificent Grants", type: "Microgrant", location: "Global", description: "$10K+ grants from Hummingbird Ventures for 10 exceptional pioneers under 25 fighting the status quo.", tags: ["Microgrants"], url: "https://www.magnificentgrants.com" },
 
   // Fellowships
-  { name: "Thiel Fellowship", type: "Fellowship", location: "US", description: "$100K over two years for young people aged 16–22 to skip or leave college and build something that matters.", tags: ["Fellowships"], url: "https://thielfellowship.org" },
+  { name: "Thiel Fellowship", type: "Fellowship", location: "US", description: "$200K over two years for young people who want to build new things instead of sitting in a classroom.", tags: ["Fellowships"], url: "https://thielfellowship.org" },
   { name: "776 Fellowship", type: "Fellowship", location: "Global", description: "$100,000 for young people tackling climate change, from the 776 Foundation.", tags: ["Fellowships"], url: "https://www.776.org/" },
   { name: "O'Shaughnessy Fellowship", type: "Fellowship", location: "US", description: "$100K for ambitious people who want to build something great. 20 individuals receive $10K each plus access to OSV's network.", tags: ["Fellowships"], url: "https://www.osv.llc/fellowships" },
   { name: "Cansbridge Fellowship", type: "Fellowship", location: "Canada / Asia", description: "Canada's most competitive fellowship placing ambitious undergrads in Asian startups and funding their journey.", tags: ["Fellowships"], url: "https://cansbridgefellowship.com" },
