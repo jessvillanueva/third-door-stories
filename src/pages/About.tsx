@@ -184,19 +184,24 @@ const About = () => {
         </section>
 
         {/* Closing */}
-        <section className="mt-16 mb-8 flex flex-col gap-4 body-base text-foreground/[0.65]">
+        <section className="mt-16 mb-8 flex flex-col gap-6 body-base text-foreground/[0.65]">
           <p>
-            Third Door Stories isn&apos;t advice. It isn&apos;t &quot;follow your passion&quot; content. It
-            isn&apos;t me telling you to burn the boats and move to San Francisco.
+            I investigate what problems are out there, why they matter, and, above all, whether
+            they&apos;re worth the battle for someone. I&apos;ll let you decide if that someone might
+            be you. Let&apos;s map it.
           </p>
-          <p>
-            It&apos;s documentation. The real paths, networks, and small checks that make Door 3 less
-            mysterious and less lonely for a curious person inside modern education and work.
-          </p>
-          <p>
-            Start with Episode 0, subscribe on YouTube for full episodes, or join the Patreon for
-            full uncut interviews, case study breakdowns, and the live updated map of 25 or more
-            microgrants, 10 or more residencies, and 20 or more hacker houses.
+          <div className="flex flex-col gap-3">
+            <p>
+              🔓 <span className="text-foreground font-medium">Free:</span> Subscribe on YouTube for full episodes.
+            </p>
+            <p>
+              🗺️ <span className="text-foreground font-medium">Deeper layer:</span> Join the Patreon for full uncut
+              interviews, case-study breakdowns (timelines, financials, first-client tactics), and the
+              live-updated map of 25+ microgrants, 10+ residencies, and 20+ hacker houses.
+            </p>
+          </div>
+          <p className="text-foreground/[0.45] body-small">
+            Subjects and dates will evolve. Episodes will drop async by default as I earn access and do the work.
           </p>
         </section>
 
