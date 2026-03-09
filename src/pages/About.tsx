@@ -156,22 +156,24 @@ const About = () => {
         </section>
 
         {/* Backed By */}
-        <section className="mt-16 flex flex-col gap-6">
+        <section className="mt-16 mb-8 flex flex-col gap-8 rounded-2xl p-8" style={{ backgroundColor: '#121212' }}>
           <h2>Backed By</h2>
-          <div className="flex flex-col gap-8">
-            <div className="flex flex-col gap-2">
-              <p className="overline text-foreground/[0.35]">1517 Medici Grant</p>
-              <p className="body-base text-foreground/[0.65]">
+          <div className="flex items-center justify-center gap-8">
+            <img src={logo1517} alt="1517 Fund" className="h-10 object-contain" />
+            <img src={logoResidency} alt="The Residency" className="h-12 object-contain" />
+          </div>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="card-surface p-6 flex flex-col gap-3">
+              <span className="overline text-primary">1517 Medici Grant</span>
+              <p className="body-small text-foreground/[0.65]">
                 A small, fast microgrant from 1517 Fund designed to help young builders ship their
                 next concrete step with no pitch deck required. Third Door Stories received a $1,000
                 Medici grant to fund early production.
               </p>
             </div>
-            <div className="flex flex-col gap-2">
-              <p className="overline text-foreground/[0.35]">
-                The Residency — Delta Chapter II Top 20
-              </p>
-              <p className="body-base text-foreground/[0.65]">
+            <div className="card-surface p-6 flex flex-col gap-3">
+              <span className="overline text-primary">The Residency — Delta Chapter II Top 20</span>
+              <p className="body-small text-foreground/[0.65]">
                 Delta Chapter II is a three week builder sprint hosted by The Residency. Third Door
                 Stories was selected as a Top 20 finalist out of over 1,500 participants globally,
                 as the only filmmaker in the cohort. The pilot episode was shot and launched there
