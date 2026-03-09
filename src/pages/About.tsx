@@ -82,7 +82,7 @@ const About = () => {
             <p>
               Along the way I earned my way into the builder world one step at a time: a $1,000
               Medici grant from 1517 Fund, a Top 20 finish in The Residency&apos;s Delta Chapter II as
-              the only filmmaker in the cohort, Buildspace S5 with a trip to San Francisco for demo
+              the only filmmaker in the cohort, buildspace s5 with a trip to San Francisco for demo
               day, and time spent at Socratica nodes, V2, Cansbridge, and others. The first person
               who paid for the Patreon told me exactly what she valued: &quot;the part about the hacker
               houses, residencies, and microgrants.&quot; That was the moment documenting this world
